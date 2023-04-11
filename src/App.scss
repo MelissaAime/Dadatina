@@ -1,1 +1,15 @@
 @import "../src/components/cards/cards.scss";
+
+
+:root{
+    --dark: #0f0f0f;
+    --light: #eef0f1;
+    --prim: #53c1ae;
+    --seco: #c576d2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
