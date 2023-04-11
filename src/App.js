@@ -1,10 +1,12 @@
 import './App.scss';
+import { MyRoutes } from './routes/routes';
+
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <MyRoutes/>
+    </>
   );
 }
 
