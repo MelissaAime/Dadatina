@@ -24,7 +24,7 @@ export const Navbar = () => {
     ]
 
     return(
-        <header>
+        <nav>
             <img src="logo" alt="logo" className="navbar-logo"/>
             <ul className="navbar">
             {items.map(({id, title}) => (
@@ -33,6 +33,6 @@ export const Navbar = () => {
                 </li>
             ))}
             </ul>
-        </header>
+        </nav>
     )
 }
