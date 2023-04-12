@@ -1,0 +1,30 @@
+header{
+    position: relative;
+    position: sticky;
+}
+.navbar-logo{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.navbar{
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-items{
+        margin: 1rem;
+        text-decoration: none;
+        color: var(--dark);
+    }
+
+    li{
+        list-style: none;
+    }
+
+    // a:is(:hover, :focus, :active, :visited, :link){
+        
+    // }
+}
