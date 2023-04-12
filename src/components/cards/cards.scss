@@ -1,26 +1,21 @@
-.container{
-    position: relative;
-    place-items: center;
+.card{
+    width: 25rem;
+    height: 25rem;
 
-    img{
-        z-index: -1;
-    }
-
-    .cards-details{
-        visibility: hidden;
-        position: absolute;
-        bottom: 1%;
-        z-index: 1000;
-        padding: 0.2rem;
-        text-align: center;
-    }
-
-    .cards:hover .cards-details{
-        visibility: visible;
-    }
-
-    .cards:hover img{
-        transform: scale(1.01);
-        border-radius: 1px;
-    }
+    display: grid;
+    grid-template-rows: 1fr 0;
+    transition: grid-template-rows 400ms;
+    
+    overflow: hidden;
 }
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover{
+    grid-template-rows: 1fr 6;
+}
+
