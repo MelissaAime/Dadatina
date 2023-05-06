@@ -36,6 +36,24 @@ export const MyData = () => {
             'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
             'image' : 'https://via.placeholder.com/300',
         },
+        {
+            'id': 7,
+            'title': 'siete',
+            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
+            'image' : 'https://via.placeholder.com/300',
+        },
+        {
+            'id': 8,
+            'title': 'ocho',
+            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
+            'image' : 'https://via.placeholder.com/300',
+        },
+        {
+            'id': 9,
+            'title': 'nueve',
+            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
+            'image' : 'https://via.placeholder.com/300',
+        },
     ]
     return projects;
 }
