@@ -71,10 +71,11 @@ nav{
     
     .navbar-toggle span {
       display: block;
-      width: 30px;
-      height: 5px;
+      width: 28px;
+      height: 3px;
       margin: 5px 0;
       background-color: var(--dark);
+
     }
     
     .navbar-toggle.active span:nth-of-type(1) {
@@ -95,7 +96,7 @@ nav{
       top: 100%;
       left: 0;
       width: 100%;
-      background-color: var(--seco);
+      background-color: var(--secoT);
       padding: 15px;
       z-index: 1;
     }

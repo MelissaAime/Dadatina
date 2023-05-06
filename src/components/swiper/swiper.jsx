@@ -8,7 +8,7 @@ import { MyData } from "../../Data";
 
 export const MySwiper = () => {
 
-    const projects = MyData();
+    const products = MyData();
     
   return (
     <>
@@ -37,7 +37,7 @@ export const MySwiper = () => {
         modules={[Navigation]}
         className="mySwiper swiper"
       >
-            {projects.filter((project, index) => index % 2 == 0).map(({id, title, text, image}) => (
+            {products.filter((product, index) => index % 2 === 0).map(({id, title, text, image}) => (
             <SwiperSlide key={id} className="swiper-slide"> 
               <div className="card-wrapper">
                 <Cards  title={title} text={text} image={image} alt={title}/>

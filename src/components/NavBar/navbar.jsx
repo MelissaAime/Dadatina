@@ -33,7 +33,9 @@ export const Navbar = () => {
 
     return(
         <nav>
-            <img src="logo" alt="logo" className="navbar-logo"/>
+            <a href="/">
+             <img src="logo" alt="logo" className="navbar-logo"/>
+            </a>
             <button className="navbar-toggle" onClick={() => setMenuActive(!menuActive)}>
                 <span></span>
                 <span></span>

@@ -1,5 +1,5 @@
 export const MyData = () => {
-    const projects = [
+    const products = [
         {
             'id': 1,
             'title': 'uno',
@@ -55,5 +55,5 @@ export const MyData = () => {
             'image' : 'https://via.placeholder.com/300',
         },
     ]
-    return projects;
+    return products;
 }
