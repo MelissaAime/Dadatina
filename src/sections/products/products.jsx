@@ -6,10 +6,16 @@ export const Products = () => {
     const projects = MyData();
 
     return(
-        <div>
-            {projects.map(({id, title, text, image}) => (
-                <Cards  title={title} text={text} image={image} alt={title}/>
-            ))}
+     <>
+        <div className="products-background"></div>
+
+        <div className="products-container">
+            <div className="products-card">
+                {projects.map(({id, title, text, image}) => (
+                    <Cards  title={title} text={text} image={image} alt={title}/>
+                ))}
+            </div>
         </div>
+     </>
     )
 }
