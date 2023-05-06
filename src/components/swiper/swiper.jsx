@@ -38,8 +38,10 @@ export const MySwiper = () => {
         className="mySwiper swiper"
       >
             {projects.filter(project => [1, 3, 5].includes(project.id)).map(({id, title, text, image}) => (
-            <SwiperSlide key={id}>   
+            <SwiperSlide key={id} className="swiper-slide"> 
+              <div className="card-wrapper">
                 <Cards  title={title} text={text} image={image} alt={title}/>
+              </div>  
             </SwiperSlide>
             ))}
       </Swiper>
