@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
-import { Cards } from "../cards/cards";
+import { Cards } from "../Cards/cards";
 
 export const MySwiper = () => {
     

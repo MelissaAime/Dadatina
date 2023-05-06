@@ -1,4 +1,4 @@
-import { MySwiper } from '../../components/swiper/swiper';
+import { MySwiper } from '../../components/Swiper/swiper';
 
 export const Home = () => {
     return(
