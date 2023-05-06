@@ -4,47 +4,12 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import { Cards } from "../Cards/cards";
 
-export const MySwiper = () => {
-    
-    const projects = [
-        {
-            'id': 1,
-            'title': 'uno',
-            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
-            'image' : 'https://via.placeholder.com/300',
-        },
-        {
-            'id': 2,
-            'title': 'dos',
-            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
-            'image' : 'https://via.placeholder.com/300',
-        },
-        {
-            'id': 3,
-            'title': 'tres',
-            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
-            'image' : 'https://via.placeholder.com/300',
-        },
-        {
-            'id': 4,
-            'title': 'cuatro',
-            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
-            'image' : 'https://via.placeholder.com/300',
-        },
-        {
-            'id': 5,
-            'title': 'cinco',
-            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
-            'image' : 'https://via.placeholder.com/300',
-        },
-        {
-            'id': 6,
-            'title': 'seis',
-            'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
-            'image' : 'https://via.placeholder.com/300',
-        },
-    ]
+import { MyData } from "../../Data";
 
+export const MySwiper = () => {
+
+    const projects = MyData();
+    
   return (
     <>
       <Swiper
@@ -64,11 +29,15 @@ export const MySwiper = () => {
             slidesPerView: 4,
             spaceBetween: 40,
             },
+            1200: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+            },
         }}
         modules={[Navigation]}
         className="mySwiper swiper"
       >
-            {projects.map(({id, title, text, image}) => (
+            {projects.filter(project => [1, 3, 5].includes(project.id)).map(({id, title, text, image}) => (
             <SwiperSlide key={id}>   
                 <Cards  title={title} text={text} image={image} alt={title}/>
             </SwiperSlide>

@@ -1,5 +1,8 @@
+import { useState } from "react";
+
 export const Navbar = () => {
 
+    const [menuActive, setMenuActive] = useState(false);
     const items = [
         {
             'id': 1,
@@ -31,10 +34,15 @@ export const Navbar = () => {
     return(
         <nav>
             <img src="logo" alt="logo" className="navbar-logo"/>
-            <ul className="navbar">
+            <button className="navbar-toggle" onClick={() => setMenuActive(!menuActive)}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul className={`navbar-menu ${menuActive ? "active" : ""}`}>
             {items.map(({id, title, link}) => (
                 <li key={id}>
-                    <a href={link} className="navbar-items">{title}</a>
+                    <a href={link} className="navbar-menu-items">{title}</a>
                 </li>
             ))}
             </ul>
