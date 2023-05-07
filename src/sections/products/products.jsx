@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Cards } from "../../components/Cards/cards";
 import { MyData } from "../../Data";
+import { MyNavigation } from "../../components/Navigation/navigation";
 
 export const Products = () => {
 
@@ -10,6 +11,8 @@ export const Products = () => {
      <>
         <div className="products-background"></div>
 
+        <MyNavigation/>
+        
         <div className="products-container">
             <div className="products-card">
 

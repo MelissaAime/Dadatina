@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from 'react-router-dom';
 import { MyData } from "../../Data";
 import { MySwiper } from "../../components/Swiper/swiper";
+import { MyNavigation } from "../../components/Navigation/navigation";
 
 export const ProductDetails = () => {
     const { productId } = useParams();
@@ -9,6 +10,8 @@ export const ProductDetails = () => {
 
     return (
         <>
+
+            <MyNavigation/>
             <div className="container">
                 <div className="container-img">
                     <img src={product.image} alt={`Imagen principal de ${product.title}`} />
