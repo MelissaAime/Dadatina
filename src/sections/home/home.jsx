@@ -5,6 +5,12 @@ export const Home = () => {
         <>
             <div className="home-background">
             </div>
+
+            <div className='container'>
+                <MySwiper/>
+            </div>
+            <MySwiper/>
+            <MySwiper/>
             <MySwiper/>
         </>
     )

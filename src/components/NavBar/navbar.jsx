@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 export const Navbar = () => {
 
     const [menuActive, setMenuActive] = useState(false);
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const [showNavbar, setShowNavbar] = useState(true);
+
     const items = [
         {
             'id': 1,
@@ -30,9 +33,21 @@ export const Navbar = () => {
             'link' : '/redes'
         }
     ]
+    
+    const handleScroll = useCallback (() => {
+        const currentPosition = window.pageYOffset;
+        setShowNavbar(scrollPosition > currentPosition || currentPosition < 500);
+        setScrollPosition(currentPosition);
+    }, [scrollPosition]);
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [handleScroll]);
+
 
     return(
-        <nav>
+        <nav className={showNavbar ? "show" : "hide"}>
             <a href="/">
              <img src="logo" alt="logo" className="navbar-logo"/>
             </a>
