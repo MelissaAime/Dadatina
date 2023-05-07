@@ -41,7 +41,7 @@ export const MySwiper = () => {
             {products.filter((product, index) => index % 2 === 0).map((product) => (
               <SwiperSlide key={product.id} className="swiper-slide"> 
                 <div className="card-wrapper card-swiper">
-                  <Link to={`/products/${product.id}`} key={product.id}>
+                  <Link to={`/productos/${product.id}`} key={product.id}>
                     <Cards product={product} />
                   </Link>
                 </div>  

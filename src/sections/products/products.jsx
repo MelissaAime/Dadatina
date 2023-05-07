@@ -18,7 +18,7 @@ export const Products = () => {
                 ))} */}
 
                 {products.map((product) => (
-                    <Link to={`/products/${product.id}`} key={product.id}>
+                    <Link to={`/productos/${product.id}`} key={product.id}>
                         <Cards product={product} />
                     </Link>
                 ))}

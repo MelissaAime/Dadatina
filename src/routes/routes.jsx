@@ -13,7 +13,7 @@ export const MyRoutes = () => {
           <Routes>
               <Route path='/' element={ <Home/> } />
               <Route path='/productos' element={ <Products/> } />
-              <Route path="/products/:productId" element={<ProductDetails/>} />
+              <Route path="/productos/:productId" element={<ProductDetails/>} />
               <Route component={NotFound} />
           </Routes>
       </BrowserRouter> 
