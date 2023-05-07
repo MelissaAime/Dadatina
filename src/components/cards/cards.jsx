@@ -1,10 +1,10 @@
-export const Cards = ({title, text, image, alt}) => {
+export const Cards = ({product}) => {
     return (
         <figure className="card swiper-slide">
-            <img src={image} alt={alt}/>
+            <img src={product.image} alt={product.title}/>
             <figcaption>
-                <h2>{title}</h2>
-                <p>{text}</p>
+                <h2>{product.title}</h2>
+                <p>{product.text}</p>
             </figcaption>
         </figure>
     );
