@@ -5,16 +5,24 @@ export const MyNavigation = () => {
   const parts = location.pathname.split('/').filter(Boolean);
 
   return (
-    <div aria-label="breadcrumb">
+    <div className='breadcrumb-container' aria-label="breadcrumb">
       <ol className="breadcrumb">
         <li className="breadcrumb-item">
           <Link to="/">Inicio</Link>
         </li>
-        {parts.map((part, i) => (
-          <li className="breadcrumb-item" key={part}>
-            <Link to={`/${parts.slice(0, i + 1).join('/')}`}>{part}</Link>
-          </li>
-        ))}
+        {parts.map((part, i) => {
+          const isLastPart = i === parts.length - 1;
+          const linkTo = `/${parts.slice(0, i + 1).join('/')}`;
+          return (
+            <li className="breadcrumb-item" key={part}>
+              {isLastPart ? (
+                <span>{part}</span>
+              ) : (
+                <Link to={linkTo}>{part}</Link>
+              )}
+            </li>
+          );
+        })}
       </ol>
     </div>
   );

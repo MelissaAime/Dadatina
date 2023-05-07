@@ -10,7 +10,8 @@ export const ProductDetails = () => {
 
     return (
         <>
-
+            <div className="products-background"></div>
+            
             <MyNavigation/>
             <div className="container">
                 <div className="container-img">
