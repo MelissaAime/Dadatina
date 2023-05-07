@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
@@ -37,12 +38,14 @@ export const MySwiper = () => {
         modules={[Navigation]}
         className="mySwiper swiper"
       >
-            {products.filter((product, index) => index % 2 === 0).map(({id, title, text, image}) => (
-            <SwiperSlide key={id} className="swiper-slide"> 
-              <div className="card-wrapper">
-                <Cards  title={title} text={text} image={image} alt={title}/>
-              </div>  
-            </SwiperSlide>
+            {products.filter((product, index) => index % 2 === 0).map((product) => (
+              <SwiperSlide key={product.id} className="swiper-slide"> 
+                <div className="card-wrapper card-swiper">
+                  <Link to={`/products/${product.id}`} key={product.id}>
+                    <Cards product={product} />
+                  </Link>
+                </div>  
+              </SwiperSlide>
             ))}
       </Swiper>
     </>
