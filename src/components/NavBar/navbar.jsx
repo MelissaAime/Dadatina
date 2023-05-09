@@ -45,9 +45,10 @@ export const Navbar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, [handleScroll]);
 
+    const navbarClass = `navbar ${showNavbar ? 'navbar-inicial' : 'navbar-scroll'}`;
 
     return(
-        <nav className={showNavbar ? "show" : "hide"}>
+        <nav className={navbarClass}>
             <a href="/">
              <img src="logo" alt="logo" className="navbar-logo"/>
             </a>
