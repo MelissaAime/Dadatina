@@ -3,14 +3,15 @@ import { useParams } from 'react-router-dom';
 import { MyData } from "../../Data";
 import { MySwiper } from "../../components/Swiper/swiper";
 import { MyNavigation } from "../../components/Navigation/navigation";
+import { HeroImage } from "../../components/heroImage/heroImage";
 
 export const ProductDetails = () => {
     const { productId } = useParams();
     const product = MyData().find((p) => p.id === parseInt(productId));
-
+    const imageLink = 'https://via.placeholder.com/300';
     return (
         <>
-            <div className="products-background"></div>
+            <HeroImage imageLink={imageLink} />
             
             <MyNavigation/>
             <div className="container">

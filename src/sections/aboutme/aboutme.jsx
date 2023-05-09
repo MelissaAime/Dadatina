@@ -1,3 +1,4 @@
+import { MyNavigation } from "../../components/Navigation/navigation";
 import { HeroImage } from "../../components/heroImage/heroImage";
 
 export const AboutMe = () => {
@@ -7,7 +8,7 @@ export const AboutMe = () => {
     return(
      <>
         <HeroImage imageLink={imageLink} />
-
+        <MyNavigation />
      </>
     )
 }

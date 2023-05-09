@@ -15,7 +15,7 @@ export const Navbar = () => {
         {
             'id': 2,
             'title': 'Sobre mi',
-            'link': '/sobremi'
+            'link': '/sobre-mi'
         },
         {
             'id': 3,
