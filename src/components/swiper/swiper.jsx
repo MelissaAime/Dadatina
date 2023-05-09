@@ -14,8 +14,8 @@ export const MySwiper = () => {
   return (
     <>
       <Swiper
-        slidesPerView={1}
-        spaceBetween={0}
+        slidesPerView={2}
+        spaceBetween={2}
         navigation={true}
         breakpoints={{
             640: {
