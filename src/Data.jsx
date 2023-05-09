@@ -9,7 +9,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
         {
             'id': 2,
@@ -20,7 +21,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
         {
             'id': 3,
@@ -31,7 +33,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
         {
             'id': 4,
@@ -42,7 +45,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
         {
             'id': 5,
@@ -53,7 +57,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
         {
             'id': 6,
@@ -64,7 +69,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
         {
             'id': 7,
@@ -75,7 +81,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
         {
             'id': 8,
@@ -86,7 +93,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
         {
             'id': 9,
@@ -97,7 +105,8 @@ export const MyData = () => {
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
                 'https://via.placeholder.com/300',
-            ]
+            ],
+            'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
     ]
     return products;

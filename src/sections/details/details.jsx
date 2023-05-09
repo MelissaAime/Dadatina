@@ -23,6 +23,7 @@ export const ProductDetails = () => {
                 <div className="container-text">
                     <h1>{product.title}</h1>
                     <p>{product.text}</p>
+                    <div>{product.description}</div>
                 </div>
             </div>
             

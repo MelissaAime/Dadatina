@@ -1,5 +1,5 @@
 .container{
-    margin: 5vw;
+    margin: 5vw 7vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -19,6 +19,20 @@
         img {
             width: 100%;
             height: auto;
+        }
+    }
+    &-text{
+        display: grid;
+        grid-template-rows: 0.3fr 0.5fr 2fr;
+        align-items: center;
+        justify-items: center;
+        padding: 2rem;
+
+        p{
+            text-align: center;
+        }
+        div{
+            padding: 3vw;
         }
     }
 }
