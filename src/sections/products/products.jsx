@@ -18,12 +18,11 @@ export const Products = () => {
         <div className="products-container">
             <div className="products-card">
 
-                {/* {products.map(({id, title, text, image}) => (
-                    <Cards  title={title} text={text} image={image} alt={title}/>
-                ))} */}
-
                 {products.map((product) => (
-                    <Link to={`/productos/${product.id}`} key={product.id}>
+                    // <Link to={`/productos/${product.id}`} key={product.id}>
+                    // <Link to={`/productos/${product.title}`} key={product.id}>
+                    <Link to={`/productos/${encodeURIComponent(product.title)}`} key={product.id}>
+
                         <Cards product={product} />
                     </Link>
                 ))}

@@ -15,7 +15,7 @@ export const MyRoutes = () => {
           <Routes>
               <Route path='/' element={ <Home/> } />
               <Route path='/productos' element={ <Products/> } />
-              <Route path="/productos/:productId" element={ <ProductDetails/> } />
+              <Route path="/productos/:productTitle" element={ <ProductDetails/> } />
               <Route path='/sobre-mi' element={ <AboutMe/> } />
               <Route path='/libro' element={ <MyBook/> } />
               <Route path='/redes' element={ <SocialMedia/> } />
