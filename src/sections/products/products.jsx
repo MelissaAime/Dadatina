@@ -2,14 +2,16 @@ import { Link } from "react-router-dom";
 import { Cards } from "../../components/Cards/cards";
 import { MyData } from "../../Data";
 import { MyNavigation } from "../../components/Navigation/navigation";
+import { HeroImage } from "../../components/heroImage/heroImage";
 
 export const Products = () => {
 
     const products = MyData();
+    const imageLink = 'https://via.placeholder.com/300';
 
     return(
      <>
-        <div className="products-background"></div>
+        <HeroImage imageLink={imageLink} />
 
         <MyNavigation/>
         
