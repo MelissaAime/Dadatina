@@ -1,3 +1,4 @@
+import { MyNavigation } from "../../components/Navigation/navigation";
 import { HeroImage } from "../../components/heroImage/heroImage";
 
 export const MyBook = () => {
@@ -7,7 +8,7 @@ export const MyBook = () => {
     return(
      <>
         <HeroImage imageLink={imageLink} />
-
+        <MyNavigation />
      </>
     )
 }
