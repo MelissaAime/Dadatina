@@ -1,10 +1,8 @@
 import { MyNavigation } from "../../components/Navigation/navigation";
 import { HeroImage } from "../../components/heroImage/heroImage";
-
+import imageLink from "../../images/fondo.png";
 
 export const SocialMedia = () => {
-
-    const imageLink = 'https://via.placeholder.com/300';
 
     return(
      <>
