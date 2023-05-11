@@ -1,4 +1,5 @@
 import { MySwiper } from '../../components/Swiper/swiper';
+import { Subtitle } from '../../components/subtitle/subtitle';
 import imageLink from "../../images/kit1.png"
 
 export const Home = () => {
@@ -13,11 +14,13 @@ export const Home = () => {
                 }}> 
             </div>
 
-
             <div className='swiper-container'>
+                <Subtitle text="Productos destacados:"/>
                 <MySwiper/>
-                <MySwiper/>
-                <MySwiper/>
+            </div>
+
+            <div>
+
             </div>
         </>
     )

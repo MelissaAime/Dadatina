@@ -1,0 +1,13 @@
+.subtitle{
+    background-color: var(--prim);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-text{
+        color: var(--light);
+        padding: 4px;
+        font-family: 'Kalam', cursive;
+    }
+}
