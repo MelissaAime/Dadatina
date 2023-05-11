@@ -19,10 +19,7 @@ export const Products = () => {
             <div className="products-card">
 
                 {products.map((product) => (
-                    // <Link to={`/productos/${product.id}`} key={product.id}>
-                    // <Link to={`/productos/${product.title}`} key={product.id}>
                     <Link to={`/productos/${encodeURIComponent(product.title)}`} key={product.id}>
-
                         <Cards product={product} />
                     </Link>
                 ))}

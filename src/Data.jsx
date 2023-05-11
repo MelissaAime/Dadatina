@@ -4,11 +4,11 @@ export const MyData = () => {
             'id': 1,
             'title': 'Producto uno',
             'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
-            'image' : 'https://via.placeholder.com/300',
+            'image' : 'https://dqm4sv5xk0oaj.cloudfront.net/products/32172/large/open-uri20210625-3380-1unao9d.?1624642442',
             'images' : [
-                'https://via.placeholder.com/300',
-                'https://via.placeholder.com/300',
-                'https://via.placeholder.com/300',
+                'https://dqm4sv5xk0oaj.cloudfront.net/products/32170/large/open-uri20210625-3380-pzz7a8.?1624642424',
+                'https://dqm4sv5xk0oaj.cloudfront.net/products/32170/large/open-uri20210625-3380-pzz7a8.?1624642424',
+                'https://www.aldeaecologica.com.ar/wp-content/uploads/2021/11/dadatina-am-pm.jpg',
             ],
             'description': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos odit totam asperiores natus temporibus numquam provident quod ut nemo vel autem officiis reiciendis quaerat minus, porro adipisci nulla sit! Soluta velit tempora dolor illum asperiores a quas quaerat voluptates nobis ex! Temporibus ex ab rem vel voluptatibus, laborum voluptatum alias dolorum harum soluta necessitatibus minus architecto odit quidem velit.'
         },
