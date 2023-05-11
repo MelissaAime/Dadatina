@@ -4,14 +4,12 @@ import { MyData } from "../../Data";
 import { MySwiper } from "../../components/Swiper/swiper";
 import { MyNavigation } from "../../components/Navigation/navigation";
 import { HeroImage } from "../../components/heroImage/heroImage";
+import imageLink from "../../images/trilogia.png";
 
 export const ProductDetails = () => {
-    // const { productId } = useParams();
-    // const product = MyData().find((p) => p.id === parseInt(productId));
     const { productTitle } = useParams();
     const product = MyData().find((p) => p.title.toLowerCase() === productTitle.toLowerCase());
 
-    const imageLink = 'https://via.placeholder.com/300';
     return (
         <>
             <HeroImage imageLink={imageLink} />

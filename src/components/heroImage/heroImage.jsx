@@ -3,9 +3,10 @@ export const HeroImage = ({imageLink}) => {
         <div 
             className="background-image" 
             style={{
-                background: `no-repeat center/112% url(${imageLink})`,
+                background: `url(${imageLink})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
             }}>
-
         </div>
     )
 }
