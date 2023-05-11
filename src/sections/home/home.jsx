@@ -14,13 +14,13 @@ export const Home = () => {
                 }}> 
             </div>
 
-            <div className='swiper-container'>
+            <div className='container-home'>
                 <Subtitle text="Productos destacados:"/>
                 <MySwiper/>
             </div>
 
-            <div>
-
+            <div className='container-home'>
+                <Subtitle text="Posts de instagram:"/>
             </div>
         </>
     )
