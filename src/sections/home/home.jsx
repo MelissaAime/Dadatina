@@ -21,6 +21,7 @@ export const Home = () => {
 
             <div className='container-home'>
                 <Subtitle text="Posts de instagram:"/>
+                <div data-mc-src="19902743-aa32-49ba-a939-6b338c64f109#instagram"></div>
             </div>
         </>
     )
