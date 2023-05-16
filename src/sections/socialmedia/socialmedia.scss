@@ -7,10 +7,15 @@
 
     &-tiktok{
         margin: 3vw;
-        height: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.tiktok-embed{
+    max-width: 400px;
+    min-width: 30px;
+    height: auto;
 }
 
 @media (max-width: 768px) {
