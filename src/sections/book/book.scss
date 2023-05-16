@@ -1,0 +1,16 @@
+.book{
+    height: 50vh;
+    margin: 4vw;
+    background: var(--prim);
+    border-radius: 30px;
+    position: relative;
+
+    &-image{
+        position: absolute;
+        width: 350px;
+        transform: rotate(20deg);
+        right: 4%;
+        top: 20%;
+        filter: drop-shadow(5px 5px 20px var(--dark));
+    }
+}
