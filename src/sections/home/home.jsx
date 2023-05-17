@@ -15,8 +15,6 @@ export const Home = () => {
                 }}> 
             </div>
 
-            <MyNavigation/>
-
             <div className='container-home'>
                 <Subtitle 
                     title="Productos destacados:" 
