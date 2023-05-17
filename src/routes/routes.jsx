@@ -6,6 +6,7 @@ import { ProductDetails } from '../sections/details/details';
 import { AboutMe } from '../sections/aboutme/aboutme';
 import { MyBook } from '../sections/book/book';
 import { SocialMedia } from '../sections/socialmedia/socialmedia';
+import { BookInfo } from '../sections/bookInfo/book-info';
 
 export const MyRoutes = () => {
     return (
@@ -18,6 +19,7 @@ export const MyRoutes = () => {
               <Route path="/productos/:productTitle" element={ <ProductDetails/> } />
               <Route path='/sobre-mi' element={ <AboutMe/> } />
               <Route path='/libro' element={ <MyBook/> } />
+              <Route path='/libro/comprar' element={ <BookInfo/> } />
               <Route path='/redes' element={ <SocialMedia/> } />
               <Route path='*' element={ <Navigate to='/' /> } />     
           </Routes>
