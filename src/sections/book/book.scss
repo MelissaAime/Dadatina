@@ -1,26 +1,47 @@
 .book{
-    height: 50vh;
-    margin: 4vw;
-    background: var(--primT);
+    width: 80vw;
+    height: 70vh;
+    margin: 4vw auto;
+    background: var(--prim);
     border-radius: 30px;
     position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 
     &-image{
         position: absolute;
         width: 350px;
-        transform: rotate(20deg);
-        right: 4%;
-        top: 20%;
+        transform: rotate(18deg);
+        right: 3%;
+        top: 25%;
         filter: drop-shadow(5px 5px 20px var(--dark));
+    }
+
+    p{
+        color: var(--light);
+        padding: 5rem 9rem;
+        text-shadow: 1px 1px 2px var(--dark);
+        display: flex;
+        align-items: center;
+        line-height: 30px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .book{
         height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+
         &-image{
             width: 200px;
-            top: 50%;
+            top: 65%;
+        }
+        p{
+            font-size: 0.8rem;
+            line-height: 18px;
+            padding: 1.5rem 1.9rem;
         }
     }
 }
