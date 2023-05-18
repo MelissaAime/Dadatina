@@ -10,16 +10,16 @@ export const Footer = () => {
     return(
         <div className="footer-container">
             <div className="footer-element"> 
-                <Items icon={iconInstagram}/>
+                <Items href={"https://www.instagram.com"} icon={iconInstagram}/>
             </div>
             <div className="footer-element">
-                <Items icon={iconTiktok}/>
+                <Items href={"https://www.tiktok.com"} icon={iconTiktok}/>
             </div>
             <div className="footer-element">
-                <Items icon={iconTwitch}/>
+                <Items href={"https://www.twitch.com"} icon={iconTwitch}/>
             </div>
             <div className="footer-element">
-                <Items icon={iconTwitter}/>
+                <Items href={"https://www.twitter.com"} icon={iconTwitter}/>
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
-export const Items = ({icon}) => {
+export const Items = ({icon, href}) => {
     return(
         <>
-            <a className="items-button" href="#">{icon}</a>
+            <a className="items-button" href={href} target="_blank" rel="noreferrer">{icon}</a>
         </>
     )
 }
