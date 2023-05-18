@@ -7,6 +7,7 @@ import { AboutMe } from '../sections/aboutme/aboutme';
 import { MyBook } from '../sections/book/book';
 import { SocialMedia } from '../sections/socialmedia/socialmedia';
 import { BookInfo } from '../sections/bookInfo/book-info';
+import { Footer } from '../sections/footer/footer';
 
 export const MyRoutes = () => {
     return (
@@ -23,6 +24,8 @@ export const MyRoutes = () => {
               <Route path='/redes' element={ <SocialMedia/> } />
               <Route path='*' element={ <Navigate to='/' /> } />     
           </Routes>
+
+          <Footer/>
       </BrowserRouter> 
     );
   }

@@ -1,0 +1,21 @@
+.items-button{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px var(--dark);
+    background-color: var(--light);
+    color: var(--seco);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover{
+        color: var(--light);
+        background-color: var(--dark);
+    }
+}
