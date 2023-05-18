@@ -26,3 +26,12 @@
         height: 50px;
     }
 }
+
+
+#myTooltip{
+    background-color: var(--light);
+    color: var(--dark);
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
