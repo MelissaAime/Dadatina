@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import logo from "../../images/logo.png";
 
 export const Navbar = () => {
 
@@ -50,7 +51,7 @@ export const Navbar = () => {
     return(
         <nav className={navbarClass}>
             <a href="/">
-             <img src="logo" alt="logo" className="navbar-logo"/>
+             <img src={logo} alt="logo" className="navbar-logo"/>
             </a>
             <button className="navbar-toggle" onClick={() => setMenuActive(!menuActive)}>
                 <span></span>
