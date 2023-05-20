@@ -2,6 +2,10 @@
     height: 70vh;
     max-width: 100vw;
 }
+.container-home{
+    margin: 5vw;
+}
+
 @media screen and (max-width: 768px) {
     .home-background{
         height: 80vh;
@@ -9,6 +13,3 @@
 }
 
 
-.container-home{
-    margin: 5vw;
-}
