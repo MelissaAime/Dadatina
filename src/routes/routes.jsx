@@ -8,6 +8,7 @@ import { MyBook } from '../sections/book/book';
 import { SocialMedia } from '../sections/socialmedia/socialmedia';
 import { BookInfo } from '../sections/bookInfo/book-info';
 import { Footer } from '../sections/footer/footer';
+import { Copyright } from '../components/copyright/copyright';
 
 export const MyRoutes = () => {
     return (
@@ -26,6 +27,7 @@ export const MyRoutes = () => {
           </Routes>
 
           <Footer/>
+          <Copyright/>
       </BrowserRouter> 
     );
   }
