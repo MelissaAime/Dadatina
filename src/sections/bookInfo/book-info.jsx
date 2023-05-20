@@ -4,13 +4,19 @@ import { Subtitle } from "../../components/subtitle/subtitle";
 import imageLink from "../../images/book-person.jpg";
 import acflogo from "../../images/acf-logo.png";
 import cuspidelogo from "../../images/cuspide-logo.png";
+import ateneologo from "../../images/ateneo-logo.png";
 import { Bookshop } from "../../components/bookshop/bookshop";
-import { useNavigate } from 'react-router-dom';
 
 export const BookInfo = () => {
-    const navigate = useNavigate();
-    const handleClick = () => {
-        navigate('/productos');
+    
+    const handleClickOne = () => {
+        window.open('https://www.mascarasacf.com.ar', '_blank');
+    };
+    const handleClickTwo = () => {
+        window.open('https://www.cuspide.com/Libro/9789507883262/%23Pielesreales', '_blank');
+    };
+    const handleClickThree = () => {
+        window.open('https://www.yenny-elateneo.com/MLA-914074236-pielesreales-dadatina-_JM?gclid=CjwKCAjw36GjBhAkEiwAKwIWyTYFHuCA0Pm-0w0oUoy5F2pu80nouNTQtkGqXr8DLZO06_uWeJuObBoCSKMQAvD_BwE', '_blank');
     };
 
     return(
@@ -29,18 +35,24 @@ export const BookInfo = () => {
                     <Bookshop
                         image={acflogo}
                         title="acf"
-                        text="comprar en acf"
                         buttoncontent="Comprar"
-                        handleClick={handleClick}
+                        handleClick={handleClickOne}
                     />
 
                     <Bookshop
                         image={cuspidelogo}
                         title="cuspide"
-                        text="comprar en cuspide"
                         buttoncontent="Comprar"
-                        handleClick={handleClick}
+                        handleClick={handleClickTwo}
                     />
+
+                    <Bookshop
+                        image={ateneologo}
+                        title="El ateneo"
+                        buttoncontent="Comprar"
+                        handleClick={handleClickThree}
+                    />
+
                 </div>
                 
 
