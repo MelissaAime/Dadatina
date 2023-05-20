@@ -1,24 +1,55 @@
 .footer{
-    &-container{
-        max-width: 100vw;
-        height: 25vh;
-        margin-top: 5vh;
-        background-image: url(../../images/mesh-gradient.png);
-        box-shadow: 0px 0px 10px var(--dark);
-        background-position: 68% 22%;
+    max-width: 100vw;
+    height: 25vh;
+    margin-top: 5vh;
+    background-image: url(../../images/mesh-gradient.png);
+    box-shadow: 0px 0px 10px var(--dark);
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+
+    color: var(--light);
+
+    &-redes{
+        width: 50%;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         justify-items: center;
-        padding: 10px 555px;
+        
+        &-element{
+            align-self: center;
+            font-size: 2rem;
+        }
     }
-    &-element{
-        align-self: center;
-        font-size: 2rem;
+
+    &-secondary{
+        display: flex;
+        
+        p{
+            width: 145px;
+            height: 50px;
+            margin: 0 2rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            svg{
+                margin: 1rem;
+            }
+
+            &:hover{
+                color: var(--dark);
+            }
+        }
     }
+    
 }
 
 @media screen and (max-width: 768px) {
-    .footer-container{
+    .footer{
         padding: 10px;
+        background-position: 68% 22%;
     }
 }
