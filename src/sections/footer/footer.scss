@@ -51,5 +51,13 @@
     .footer{
         padding: 10px;
         background-position: 68% 22%;
+
+        &-redes{
+            width: 100%;
+        }
+
+        &-secondary{
+            display: none;
+        }
     }
 }
