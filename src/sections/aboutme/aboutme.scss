@@ -33,6 +33,24 @@
             p{
                 text-align: justify;
                 line-height: 22px;
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutme-profile{
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+
+        &-text{
+            grid-template-rows: 1fr 5fr;
+
+            p{
+                line-height: normal;
+                padding: 1rem;
+                font-size: .8rem;
             }
         }
     }
