@@ -1,7 +1,7 @@
 .book-info-container{
     margin: 5vw;
 
-    h2{
+    h3{
         margin: 2rem;
     }
 }
@@ -9,4 +9,17 @@
 .book-info-bookshop{
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .book-info-container{
+        h3{
+            font-size: 1rem;
+            
+        }
+    }
+    .book-info-bookshop{
+        display: block;
+        justify-content: center;
+    }
 }

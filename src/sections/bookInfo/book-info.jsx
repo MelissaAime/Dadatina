@@ -23,7 +23,7 @@ export const BookInfo = () => {
                     title="Dónde comprar" 
                 />
         
-                <h2>Disponible en:</h2>
+                <h3>Disponible en:</h3>
 
                 <div className="book-info-bookshop">
                     <Bookshop
