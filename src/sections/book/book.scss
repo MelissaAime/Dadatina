@@ -10,6 +10,8 @@
     grid-template-rows: 4fr 1fr;
 
     &-image{
+        grid-column: 2;
+        grid-row: 1;
         position: absolute;
         width: 280px;
         transform: rotate(18deg);
@@ -37,19 +39,27 @@
 
 @media screen and (max-width: 768px) {
     .book{
-        height: 80vh;
+        height: 100vh;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr;
+        grid-template-rows: 4fr 3fr 1fr;
+        margin: 5rem auto;
 
         &-image{
+            grid-row: 1;
             width: 200px;
-            top: 65%;
+            transform: rotate(-15deg);
+            right: 1%;
+            top: 0%;
         }
         p{
+            grid-row: 2;
             font-size: 0.8rem;
             line-height: 18px;
             padding: 1.5rem 1.9rem;
+        }
+        div {
+            grid-row: 3;
         }
     }
 }
