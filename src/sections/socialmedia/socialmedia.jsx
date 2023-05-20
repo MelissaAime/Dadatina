@@ -1,5 +1,6 @@
 import { MyNavigation } from "../../components/Navigation/navigation";
 import { HeroImage } from "../../components/heroImage/heroImage";
+import { Subtitle } from "../../components/subtitle/subtitle";
 import imageLink from "../../images/fondo.png";
 
 export const SocialMedia = () => {
@@ -10,9 +11,24 @@ export const SocialMedia = () => {
         <MyNavigation />
 
         <div className="social-media">
+            <Subtitle
+                title="Instagram" 
+                href="https://instagram.com" 
+                target="_blank"
+                text="ver en instagram"
+            />
             <div data-mc-src="19902743-aa32-49ba-a939-6b338c64f109#instagram"></div>
-            <div className="social-media-youtube" data-mc-src="59dad293-f5c1-483f-a1a0-c1aa09306eb5#youtube"></div>
-            
+        </div>
+    
+        <div className="social-media-youtube" data-mc-src="59dad293-f5c1-483f-a1a0-c1aa09306eb5#youtube"></div>
+        
+        <div className="social-media">
+            <Subtitle
+                title="Tik Tok" 
+                href="https://tiktok.com" 
+                target="_blank"
+                text="ver en tiktok"
+            />
             <div className="social-media-tiktok">
                 <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@soydadatina/video/7232787936599674117" data-video-id="7232787936599674117" > 
                     <section> 
@@ -34,7 +50,7 @@ export const SocialMedia = () => {
                     </section>
                 </blockquote>
             </div>
-        </div>
+        </div> 
 
         
         

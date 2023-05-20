@@ -1,4 +1,3 @@
-import { MyNavigation } from '../../components/Navigation/navigation';
 import { MySwiper } from '../../components/Swiper/swiper';
 import { Subtitle } from '../../components/subtitle/subtitle';
 import imageLink from "../../images/kit1.png"
