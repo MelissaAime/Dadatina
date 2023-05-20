@@ -31,6 +31,10 @@ export const AboutMe = () => {
                 </div>
             </div>
 
+            <Subtitle 
+                title="" 
+            />
+
         </div>
      </>
     )
