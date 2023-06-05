@@ -1,4 +1,5 @@
 import { MySwiper } from '../../components/Swiper/swiper';
+import { Lanzamiento } from '../../components/lanzamiento/lanzamiento';
 import { Subtitle } from '../../components/subtitle/subtitle';
 import imageLink from "../../images/kit1.png"
 
@@ -13,6 +14,8 @@ export const Home = () => {
                     backgroundSize: "cover",
                 }}> 
             </div>
+
+            <Lanzamiento/>
 
             <div className='container-home'>
                 <Subtitle 

@@ -2,6 +2,7 @@ export const MyData = () => {
     const products = [
         {
             'id': 1,
+            'newProduct': true,
             'title': 'Producto uno',
             'text' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex asperiores fuga perspiciatis illum',
             'image' : 'https://dqm4sv5xk0oaj.cloudfront.net/products/32172/large/open-uri20210625-3380-1unao9d.?1624642442',
