@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './carouselHome.scss';
+import imagenProd1 from "../../images/products/prod1.png";
+import imagenProd2 from "../../images/products/prod2.png";
+import imagenProd3 from "../../images/products/prod3.jpg";
+import backgroundProd1 from "../../images/products/prod1background.png";
+import backgroundProd2 from "../../images/products/prod2background.png";
+import backgroundProd3 from "../../images/products/prod3background.png";
 
 export const CarouselHome = () => {
   const [selectedImage, setSelectedImage] = useState('');
@@ -30,26 +36,25 @@ export const CarouselHome = () => {
         className="carousel-container"
         style={{ backgroundImage: `url(${selectedImage})` }}
       >
-        <h1>Nuevos lanzamientos</h1>
       </div>
 
       <div className="image-list">
         <img
-          src="https://swiperjs.com/demos/images/nature-1.jpg"
+          src={imagenProd1}
           alt="Imagen 1"
-          data-image-url="https://swiperjs.com/demos/images/nature-8.jpg"
+          data-image-url={backgroundProd1}
           onClick={handleImageClick}
         />
         <img
-          src="https://swiperjs.com/demos/images/nature-2.jpg"
+          src={imagenProd2}
           alt="Imagen 2"
-          data-image-url="https://swiperjs.com/demos/images/nature-7.jpg"
+          data-image-url={backgroundProd2}
           onClick={handleImageClick}
         />
         <img
-          src="https://swiperjs.com/demos/images/nature-3.jpg"
+          src={imagenProd3}
           alt="Imagen 3"
-          data-image-url="https://swiperjs.com/demos/images/nature-6.jpg"
+          data-image-url={backgroundProd3}
           onClick={handleImageClick}
         />
       </div>
