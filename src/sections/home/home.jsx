@@ -1,19 +1,10 @@
 import { MySwiper } from '../../components/Swiper/swiper';
 import { CarouselHome } from '../../components/carouselHome/carouselHome';
 import { Subtitle } from '../../components/subtitle/subtitle';
-import imageLink from "../../images/kit1.png"
 
 export const Home = () => {
     return(
         <>
-            <div 
-                className="home-background"
-                style={{
-                    background: `url(${imageLink})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "cover",
-                }}> 
-            </div>
 
             <CarouselHome/>
 
